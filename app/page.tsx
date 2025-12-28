@@ -40,6 +40,9 @@ export default function Home() {
         <p className="text-sm text-zinc-600 text-center sm:text-left">
           Fast replies • Clear estimates • No mess left behind
         </p>
+        <p className="text-sm text-zinc-600">
+          Locally owned and operated in Bend, Oregon
+        </p>
       </section>
 
       {/* Services summary */}
