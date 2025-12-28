@@ -69,6 +69,42 @@ export default function Home() {
           Go to Contact →
         </Link>
       </section>
+
+      {/* FAQ */}
+<section className="rounded-lg border p-6 space-y-4">
+  <h2 className="text-xl font-semibold">FAQ</h2>
+
+  <div className="space-y-3 text-zinc-700">
+    <div>
+      <h3 className="font-medium text-zinc-900">How much does gutter cleaning cost?</h3>
+      <p className="text-sm">
+        Pricing depends on the home size, gutter height, and how much buildup is present. Most homes fall
+        between $150–$350. Send your address for a quick estimate.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-medium text-zinc-900">Do you do 2-story homes?</h3>
+      <p className="text-sm">
+        Yes. Let us know if your home is 1 or 2 stories (or if access is tight) and we’ll quote accurately.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-medium text-zinc-900">Do you flush downspouts?</h3>
+      <p className="text-sm">
+        Yes. We can flush downspouts to confirm proper flow and reduce overflow issues.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-medium text-zinc-900">Do you clean up afterward?</h3>
+      <p className="text-sm">
+        Always. Debris is bagged/removed and the work area is blown off so it looks clean when we’re done.
+      </p>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
