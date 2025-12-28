@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import { useMemo, useState } from "react";
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mjgveokg";
@@ -7,8 +9,15 @@ const FORMSPREE_ENDPOINT = "https://formspree.io/f/mjgveokg";
 type Status = "idle" | "sending" | "success" | "error";
 
 export default function ContactPage() {
+  const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
+  
+useEffect(() => {
+  if (status === "success") {
+    router.push("/thanks");
+  }
+}, [status, router]);
 
   const isDisabled = useMemo(() => status === "sending", [status]);
 
