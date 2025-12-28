@@ -12,10 +12,12 @@ export default function ContactPage() {
   const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
-  
+
 useEffect(() => {
   if (status === "success") {
+    /*
     router.push("/thanks");
+    */
   }
 }, [status, router]);
 
