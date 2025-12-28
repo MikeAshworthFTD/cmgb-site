@@ -28,8 +28,16 @@ export default function Home() {
             Request a Quote
           </Link>
         </div>
-
-        <p className="text-sm text-zinc-600">
+        <p className="text-sm text-zinc-600 text-center sm:text-left">
+        Or email:{" "}
+        <a
+          href="mailto:cleanmyguttersbend@gmail.com"
+          className="underline hover:text-[var(--accent)]"
+        >
+           cleanmyguttersbend@gmail.com
+          </a>
+        </p>
+        <p className="text-sm text-zinc-600 text-center sm:text-left">
           Fast replies • Clear estimates • No mess left behind
         </p>
       </section>
