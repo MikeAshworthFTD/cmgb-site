@@ -21,6 +21,7 @@ useEffect(() => {
   }
 }, [status, router]);
 
+
   const isDisabled = useMemo(() => status === "sending", [status]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -164,7 +165,17 @@ useEffect(() => {
                   placeholder="Bend, OR (or full address)"
                 />
               </div>
-
+              <div>
+                <label className="block text-sm font-medium mb-1">
+                    Email <span className="text-zinc-500">(optional)</span>
+                 </label>
+                <input
+                 type="email"
+                 name="email"
+                 placeholder="you@example.com"
+                 className="w-full rounded-md border px-3 py-2 text-sm"
+                 />
+                </div>
               <div className="space-y-1">
                 <label className="text-sm font-medium" htmlFor="stories">
                   Home height
