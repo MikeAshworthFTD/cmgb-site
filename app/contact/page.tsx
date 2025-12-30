@@ -72,8 +72,8 @@ useEffect(() => {
         {/* Contact card */}
         <div className="rounded-lg border p-6 space-y-3">
           <p className="text-lg font-semibold">Call/Text</p>
-          <a className="underline text-lg" href="tel:+15038901595">
-            (503) 890-1595
+          <a className="underline text-lg" href="tel:+15412246928">
+            (541) 224-6928
           </a>
           <p className="text-sm text-zinc-600">
             Typical reply time: same day.

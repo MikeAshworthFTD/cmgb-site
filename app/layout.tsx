@@ -48,8 +48,8 @@ export default function RootLayout({
             </p>
             <p>
               Call/Text:{" "}
-              <a className="underline" href="tel:+15038901595">
-                (503) 890-1595
+              <a className="underline" href="tel:+15412246928">
+                (541) 224-6928
               </a>
             </p>
           </div>
