@@ -82,8 +82,7 @@ export default function Home() {
           Get a free estimate
         </h2>   
         <p className="text-zinc-800">
-         Call our business line anytime to leave your details, or contact Michael directly
-          for quick questions. We’ll follow up promptly.
+         Call or text Michael directly for a quick estimate or questions. We’ll follow up promptly.
         </p>
         <Link href="/contact" className="underline">
           Go to Contact →
