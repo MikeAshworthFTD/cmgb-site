@@ -13,21 +13,13 @@ export default function Home() {
           done.
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
-          {/* Call Business Line (AI Assistant) */}
-          <a
-           href="tel:+15415277262"
-           className="inline-flex items-center justify-center rounded-md border px-5 py-3 font-medium bg-[var(--accent)] text-white"
-          >
-            Call Business Line (24/7)
-          </a>
-
           {/* Call Michael (Owner) */}
           <a
            href="tel:+15412246928"
-            className="inline-flex items-center justify-center rounded-md border px-5 py-3 font-medium"
+           className="inline-flex items-center justify-center rounded-md border px-5 py-3 font-medium bg-[var(--accent)] text-white"
           >
-           Call / Text (541) 224 6928
-         </a>
+            Call / Text Michael (541) 224 6928
+          </a>
 
           {/* Request Quote */}
           <Link
@@ -46,9 +38,9 @@ export default function Home() {
            cleanmyguttersbend@gmail.com
           </a>
         </p>
-        <p className="text-sm text-zinc-600 text-center sm:text-left">
-          Fast replies • Clear estimates • No mess left behind
-        </p>
+        <p className="text-sm text-zinc-600">
+  Fully insured • Fast replies • Clear estimates • No mess left behind
+</p>
         <p className="text-sm text-zinc-600 text-center sm:text-left">
           Locally owned and operated in Bend, Oregon
         </p>
